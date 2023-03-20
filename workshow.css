@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+}
+/* logo返回 */
+
+/* 网站大标题 */
+.pagetitle{
+    margin-bottom: 80px;
+}
+.pagetitle h1{
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 16px;
+} 
+.pagetitle p{
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+} 
+
+/* 第一部分内容 */
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+ /* 侧边栏 */
+.main1 .aside{
+    width: 279px;
+    height: 1186px;
+    background:url(./images/workshow/asidepic.jpg);
+    background-size: contain;
+    margin-right: 16px;
+}
+/* 右侧内容 */
+.main1 .rightsection{
+    height: 1186px;
+    /* background-color: antiquewhite; */
+    flex: 1;
+
+}
+
+/* 右侧的年份图标 */
+.main1 .iconpart{
+    height: 418px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.main1 .iconpart div{
+    text-align: center;
+}
+.main1 .iconpart div img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 16px;
+  }  
+.main1 .iconpart .year{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.main1 .iconpart .more{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+/* 右侧的作品展示3条 */
+.main1 .list{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main1 .list .card{
+    height: 240px;
+    width: 100%;
+    background-color:#f8f8f8;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1 .list .card img{
+    height: 240px;
+    width: 240px;
+}
+/* 卡片的文字 */
+.main1 .list .card .title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #1C1C1C;
+    margin-bottom: 24px;
+}
+.main1 .list .card .name{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: #1C1C1C;
+}
+/* 卡片的按钮 */
+.main1 .list .card a{
+    display: block;
+    height: 56px;
+    width: 128px;
+    background-color: black;
+    color: white;
+    font-size:16px;
+    line-height: 56px;
+    text-align: center;
+    margin: 8px 48px 8px 0px;
+}
+.main1 .list .card a:hover{
+    display: block;
+    height: 56px;
+    width: 128px;
+    background-color:#3C2CFF;
+    color: white;
+    font-size:16px;
+    line-height: 56px;
+    text-align: center;
+    margin: 8px 48px 8px 0px;
+}

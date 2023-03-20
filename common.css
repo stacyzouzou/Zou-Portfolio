@@ -1,0 +1,169 @@
+/* 版心的公共类 */
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/* 导航模块 */
+
+/* 顶部外链 */
+
+.zz-shortcut{
+    margin: 0 auto;
+    height: 32px;
+    width: 1180px;
+    /* background-color:white; */
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.zz-shortcut .container{
+    height: 32px;
+   
+}
+.zz-shortcut ul li{
+    color: #6C6C6C;
+    font-size: 12px;
+    line-height: 32px;
+    float: left;
+   
+}
+.zz-shortcut ul li a{
+    margin: 0 16px;
+    color: #6C6C6C;
+}
+.zz-shortcut ul li a:visited{
+    color: #6C6C6C;
+}
+.zz-shortcut ul li a:hover{
+    color:#3C2CFF;
+    font-weight: 800;
+}
+.zz-shortcut ul li a:hover{
+    color:#3C2CFF;
+    font-weight: 800;
+}
+.zz-shortcut ul li:last-child a{
+    margin-right: 0;
+}
+.zz-shortcut ul li:last-child a::after{
+   content:'' ;
+   width: 12px;
+   height: 12px;
+   display: inline-block;
+   /* background: url(./images/shortcut-icon.svg) no-repeat; */
+   vertical-align: middle;
+   margin-top: -1px;
+   background: url(./images/shortcut-icon.svg) no-repeat;
+
+}
+
+/* 页面主导航 */
+
+.zz-navbg{
+    margin-top: 40px;
+    margin-bottom: 64px;
+    height: 100px;
+    /* background-color: #ffffff; */
+}
+.zz-nav{
+    height: 100px;
+    line-height: 100px;
+}
+.zz-nav .logo{
+    vertical-align: middle;
+    width: 200px;
+    height: 100px;
+    background: url(./images/logo.png) no-repeat 0/200px 62px;
+    
+
+}
+
+/* 导航链接 */
+.zz-nav a{
+    font-size: 0px;
+}
+.zz-nav ul{
+    margin-left: 100px;
+}
+.zz-nav ul li{
+    float: left;
+    margin: 0 24px 0 0;
+}
+.zz-nav ul li a{
+    line-height: 100px;
+    font-size: 16px;
+    color: #1C1C1C;
+    border-bottom: 2px solid rgba(60, 44, 255,0);
+    padding-bottom: 6px;
+   
+}
+.zz-nav ul li a:hover{
+    font-weight: 800;
+    color:#3C2CFF;
+    border-bottom: 2px solid rgba(60, 44, 255,1);
+    padding-bottom: 6px;
+    transition: border-bottom 0.4s;
+}
+
+/* 顶部导航搜索框 */
+.zz-nav .searchbar{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E1E1E1;
+    border-radius: 44px;
+    margin: 30px 0;
+    padding: 0 0 0 40px;
+   
+}
+
+.zz-nav .search{
+    position:relative;
+}
+.zz-nav .search::before{
+    content:'' ;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    /* background: url(./images/shortcut-icon.svg) no-repeat; */
+    vertical-align: middle;
+    margin-top: -1px;
+    background: url(./images/icon-search.svg) no-repeat;
+ 
+ }
+
+ /* 底部导航 */
+
+.zz-service{
+    height: 160px;
+    background-color: #2c2c2c;
+    margin-top: 140px;
+}
+.zz-service div{
+    height: 160px;
+   
+}
+.zz-service .card{
+    width: 33.33%;
+    height: 160px;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    line-height: 160px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.zz-copyright{
+    background: #1C1C1C; 
+    font-size: 12px;
+    color: #6C6C6C;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+    

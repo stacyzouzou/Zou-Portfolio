@@ -1,0 +1,269 @@
+/* Part 01 banner 入口部分的内容 */
+
+.zz-entry{
+    height:640px ;
+    background-color:#F8F8F8;
+
+}
+
+/* banner部分 */
+
+.zz-entry .banner a img{
+    height: 640px;
+    width: 1180px; 
+}
+.zz-entry .container{
+    position: relative;
+}
+/* 侧边栏入口 */
+
+.zz-entry .category{
+    position: absolute;
+    width: 280px;
+    height: 640px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 16px 0;
+    box-sizing:border-box;
+
+}
+.zz-entry .category li{
+    padding: 15px 24px 15px 32px;
+    line-height: 56px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background-color:rgba(60, 44, 255, 0);
+    transform:all 1s;
+    position: relative;
+}
+.zz-entry .category li:hover{
+    background-color:rgba(60, 44, 255, 1) ;
+}
+.zz-entry .category li:hover a::after{
+    opacity: 1;
+}
+.zz-entry .category a:visited{
+    color: white ;
+}
+.zz-entry .category li span{
+    padding: 0 0 0 8px;
+    line-height: 56px;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+.zz-entry .category li a::after{
+    content: '';
+    width: 32px;
+    height: 16px;
+    background: url(./images/icon-arrow.svg) 
+    no-repeat ;
+    position: absolute;
+    top:35px ;
+    right:24px;
+    opacity: 0.6;
+}
+
+
+/* 轮播箭头 */
+
+.zz-entry .prev{
+    position: absolute;
+    right: 56px;
+    bottom: 0px;
+    width: 56px;
+    height: 56px;
+    background: url(./images/arrow-left.png) no-repeat 0/56px;
+    background-color: rgba(0, 0, 0, 0.8);  
+
+}
+.zz-entry .next{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 56px;
+    height: 56px;
+    background: url(./images/arrow-right.png) no-repeat 0/56px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 1px solid #424242;
+
+}
+
+/* 轮播导航 */
+.zz-entry .indicator{
+    width: 68px;
+    height: 8px;
+    position: absolute;
+    bottom: 16px;
+    left: 296px;
+}
+
+.zz-entry .indicator li{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 8px;
+    float: left;
+}
+
+.zz-entry .indicator li.active{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255,1);
+    margin-right: 8px;
+    float: left;
+}
+
+.zz-entry .indicator li:last-child{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255,0.2);
+    margin-right: 0px;
+    float: left;
+}
+
+/* Part 02 插画部分 */
+
+.zz-illustration{
+    height: 656px;
+    margin-top: 100px;
+}
+
+/* 公用的标题部分 */
+
+.title{
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+
+}
+.title h2{
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.title a{
+    color: black;
+    font-size: 16px;
+    line-height: 1em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+/* 插图列表 */
+
+.zz-illustration .card{
+    height: 560px;
+    margin-top: 40px;
+}
+
+.zz-illustration .card li{
+    height: 560px;
+    width: 380px;
+    background-color: #000000;
+    float: left;
+    margin-right: 20px;
+}
+.zz-illustration .card li:last-child{
+    margin-right: 0px;
+}
+.zz-illustration .card li img{
+    width: 100%;
+}
+.zz-illustration .card .text{
+    height: 140px;
+    padding: 32px 32px 48px;
+}
+.zz-illustration .card h3{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.zz-illustration .card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #868686;
+}
+
+
+/*  Part 03 UI 部分 */
+
+.zz-uidesign{
+    height: 696px;
+    margin-top: 100px;
+}
+.zz-uidesign .card{
+    height: 560px;
+    margin-top: 40px;
+}
+.zz-uidesign .card li{
+    width: 580px;
+    height: 560px;
+    background-color: aqua;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.zz-uidesign .card li:last-child{
+    margin-right: 0px;
+}
+.zz-uidesign .card li img{
+    width: 100%;
+    float: left;
+}
+.zz-uidesign .card .text{
+    position:absolute;
+    left: 32px;
+    bottom: 56px;
+}
+.zz-uidesign .card h3{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.zz-uidesign .card p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #868686;
+}
+.zz-uidesign .card .ani{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: white;
+    margin-bottom: 16px;
+    display: none;
+    transition: all 1s;
+}
+.zz-uidesign .card li:hover .ani{
+    display:inline-block;
+}
+
+.zz-uidesign li .mask{
+    width: 580px;
+    height: 560px;
+    background: linear-gradient(212.83deg, 
+    rgba(0, 0, 0, 0) 34.04%, 
+    rgba(0, 0, 0, 0.9) 98.38%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

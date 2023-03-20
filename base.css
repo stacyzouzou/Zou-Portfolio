@@ -1,0 +1,51 @@
+/* 间距的清理 */
+body,.fr,ul,li,ol,div,img,
+.container,footer,h1,h2,h3,p,aside,a,span{
+    padding: 0;
+    margin: 0;
+}
+
+/* 文字的统一 */
+
+body{
+    font-family: "PingFang SC","Microsoft YaHei","苹方","微软雅黑","Helvetica","Heiti SC","Roboto","sans-serif";
+}
+
+/* 默认样式的清除 */
+
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none; 
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+/* 一些通用样式 */
+
+img{
+    vertical-align: middle;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+body{
+    background:#f9f9f9;
+}
+
+
+/* 输入组件的提示文字色 */
+
+input::-webkit-input-placeholder {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
